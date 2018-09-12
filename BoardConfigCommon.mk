@@ -94,6 +94,9 @@ TARGET_HAS_LEGACY_CAMERA_HAL1 := true
 BOARD_GLOBAL_CFLAGS += -DCAMERA_VENDOR_L_COMPAT
 BOARD_USE_SAMSUNG_CAMERAFORMAT_NV21 := true
 
+# Vendor security patch level
+ro.lineage.build.vendor_security_patch=2017-08-01
+
 # RIL
 BOARD_PROVIDES_LIBRIL := true
 BOARD_MOBILEDATA_INTERFACE_NAME := "rmnet0"
